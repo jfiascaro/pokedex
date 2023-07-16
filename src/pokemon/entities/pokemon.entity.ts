@@ -13,7 +13,7 @@ export class Pokemon extends Document {
         unique: true,
         index: true,
     })
-    no:string;
+    no:number;
 }
 
 export const PokemonSchema = SchemaFactory.createForClass(Pokemon);
